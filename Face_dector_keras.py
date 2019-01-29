@@ -6,7 +6,7 @@ Created on Mon Jan 28 19:01:35 2019
 """
 
 import os
-os.chdir('D:\\Python practice\\keras practice')
+#os.chdir('this folder path')
 import numpy as np
 import cv2
 import _pickle as pickel

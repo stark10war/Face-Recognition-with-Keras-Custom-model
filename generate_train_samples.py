@@ -6,8 +6,7 @@ Created on Fri Jan 25 13:13:27 2019
 """
 
 import os
-
-os.chdir('this folder path')
+#os.chdir('this folder path')
 import numpy as np
 import pandas as pd
 import cv2

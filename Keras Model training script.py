@@ -6,7 +6,7 @@ Created on Mon Jan 28 15:15:53 2019
 """
 
 import os
-os.chdir('D:\\Python practice\\keras practice')
+#os.chdir('this folder path')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

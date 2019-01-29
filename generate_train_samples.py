@@ -14,6 +14,7 @@ import cv2
 ## Setting the base directory
 BASE_DIR = os.path.dirname(os.path.abspath('face-train.py'))
 image_dir =  os.path.join(BASE_DIR, "Input_images")
+os.mkdir("Input_images")
 face_cascade = cv2.CascadeClassifier('haarcascade/haarcascade_frontalface_alt2.xml')
 
 person_name = input("Please Enter your name: ") ##Get input label from the user
